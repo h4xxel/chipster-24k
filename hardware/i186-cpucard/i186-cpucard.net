@@ -1,0 +1,970 @@
+# EESchema Netlist Version 1.1 created  tor  1 aug 2013 23:38:33
+(
+ ( /5197BD86 $noname  C14 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /51F92DC2 $noname  P22 CONN_4 {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /51F92DBA $noname  P21 CONN_4 {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /51DE57D1 $noname  P20 CONN_4 {Lib=CONN_4}
+  (    1 N-000042 )
+  (    2 N-000039 )
+  (    3 N-000057 )
+  (    4 ? )
+ )
+ ( /51DDFBD7 $noname  C5 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /51DDFBD4 $noname  C3 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /51DDFB8C $noname  C1 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /51DCED4D $noname  P19 CONN_4 {Lib=CONN_4}
+  (    1 /INT4 )
+  (    2 /INT5 )
+  (    3 /INT6 )
+  (    4 /INT7 )
+ )
+ ( /51DCED4A $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 /INT3 )
+  (    2 /INT2 )
+  (    3 /INT1 )
+  (    4 /INT0 )
+ )
+ ( /51DC7370 $noname  P18 CONN_4 {Lib=CONN_4}
+  (    1 /D12 )
+  (    2 /D13 )
+  (    3 /D14 )
+  (    4 /D15 )
+ )
+ ( /51DC736D $noname  P17 CONN_4 {Lib=CONN_4}
+  (    1 /D8 )
+  (    2 /D9 )
+  (    3 /D10 )
+  (    4 /D11 )
+ )
+ ( /51DC736A $noname  P16 CONN_4 {Lib=CONN_4}
+  (    1 /D4 )
+  (    2 /D5 )
+  (    3 /D6 )
+  (    4 /D7 )
+ )
+ ( /51DC7361 $noname  P15 CONN_4 {Lib=CONN_4}
+  (    1 /D0 )
+  (    2 /D1 )
+  (    3 /D2 )
+  (    4 /D3 )
+ )
+ ( /51DC7359 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 /A3 )
+  (    2 /A2 )
+  (    3 /A1 )
+  (    4 /A0 )
+ )
+ ( /51DC7355 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 /A7 )
+  (    2 /A6 )
+  (    3 /A5 )
+  (    4 /A4 )
+ )
+ ( /51DC734C $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 /A11 )
+  (    2 /A10 )
+  (    3 /A9 )
+  (    4 /A8 )
+ )
+ ( /51DC7346 $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 /A15 )
+  (    2 /A14 )
+  (    3 /A13 )
+  (    4 /A12 )
+ )
+ ( /51DC7321 $noname  P14 CONN_4 {Lib=CONN_4}
+  (    1 /A23 )
+  (    2 /A22 )
+  (    3 /A21 )
+  (    4 /A20 )
+ )
+ ( /51DC731B $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 /A19 )
+  (    2 /A18 )
+  (    3 /A17 )
+  (    4 /A16 )
+ )
+ ( /51DC6FD1 $noname  R2 R {Lib=R}
+  (    1 GND )
+  (    2 N-000124 )
+ )
+ ( /51DC6FC3 $noname  R1 R {Lib=R}
+  (    1 GND )
+  (    2 NMI )
+ )
+ ( /51DC6D36 $noname  U9 74HC245 {Lib=74HC245}
+  (    1 VCC )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 N-000089 )
+  (    7 N-000120 )
+  (    8 N-000088 )
+  (    9 N-000108 )
+  (   10 GND )
+  (   11 /W/~R )
+  (   12 /BUS_HALFWORD )
+  (   13 N-000057 )
+  (   14 N-000039 )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 bus_enable )
+  (   20 VCC )
+ )
+ ( /5197D5DC $noname  R4 R {Lib=R}
+  (    1 GND )
+  (    2 N-000012 )
+ )
+ ( /5197D5D0 $noname  D2 LED {Lib=LED}
+  (    1 bus_enable )
+  (    2 N-000012 )
+ )
+ ( /5197D584 $noname  R3 R {Lib=R}
+  (    1 VCC )
+  (    2 N-000011 )
+ )
+ ( /5197D578 $noname  D1 LED {Lib=LED}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /5197BD92 $noname  C2 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD8D $noname  C4 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD8C $noname  C8 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD87 $noname  C6 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD81 $noname  C16 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD80 $noname  C12 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5197BD7B $noname  C10 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5196AA1E $noname  P12 CONN_4X2 {Lib=CONN_4X2}
+  (    1 bus_enable )
+  (    2 /CPU0 )
+  (    3 bus_enable )
+  (    4 /CPU1 )
+  (    5 bus_enable )
+  (    6 /CPU2 )
+  (    7 bus_enable )
+  (    8 /CPU3 )
+ )
+ ( /5196AA11 $noname  P13 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /CPU0 )
+  (    2 /CPU1 )
+  (    3 /CPU2 )
+  (    4 /CPU3 )
+ )
+ ( /5196A1E6 $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 NMI )
+  (    2 N-000094 )
+  (    3 N-000124 )
+ )
+ ( /5196A154 $noname  P7 CONN_4 {Lib=CONN_4}
+  (    1 N-000094 )
+  (    2 N-000094 )
+  (    3 N-000094 )
+  (    4 N-000094 )
+ )
+ ( /5196A149 $noname  P11 CONN_4 {Lib=CONN_4}
+  (    1 /INT7 )
+  (    2 /INT6 )
+  (    3 /INT5 )
+  (    4 /INT4 )
+ )
+ ( /5196A10F $noname  P10 CONN_4 {Lib=CONN_4}
+  (    1 /INT0 )
+  (    2 /INT1 )
+  (    3 /INT2 )
+  (    4 /INT3 )
+ )
+ ( /5196A098 $noname  P8 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /W/~R )
+  (    2 /BUS_HALFWORD )
+  (    3 /CPU_CLK )
+  (    4 ? )
+ )
+ ( /51952B8A $noname  P6 CONN_2X2 {Lib=CONN_2X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 GND )
+ )
+ ( /5194BD60 $noname  U7 74HC245 {Lib=74HC245}
+  (    1 N-000108 )
+  (    2 N-000090 )
+  (    3 N-000093 )
+  (    4 N-000112 )
+  (    5 N-000092 )
+  (    6 N-000111 )
+  (    7 N-000091 )
+  (    8 N-000128 )
+  (    9 N-000131 )
+  (   10 GND )
+  (   11 /D7 )
+  (   12 /D6 )
+  (   13 /D5 )
+  (   14 /D4 )
+  (   15 /D3 )
+  (   16 /D2 )
+  (   17 /D1 )
+  (   18 /D0 )
+  (   19 bus_enable )
+  (   20 VCC )
+ )
+ ( /5194BBCB $noname  U8 74HC245 {Lib=74HC245}
+  (    1 N-000108 )
+  (    2 N-000126 )
+  (    3 N-000132 )
+  (    4 N-000125 )
+  (    5 N-000107 )
+  (    6 N-000127 )
+  (    7 N-000133 )
+  (    8 N-000118 )
+  (    9 N-000129 )
+  (   10 GND )
+  (   11 /D15 )
+  (   12 /D14 )
+  (   13 /D13 )
+  (   14 /D12 )
+  (   15 /D11 )
+  (   16 /D10 )
+  (   17 /D9 )
+  (   18 /D8 )
+  (   19 bus_enable )
+  (   20 VCC )
+ )
+ ( /5194B7B4 $noname  U4 74LS574 {Lib=74LS574}
+  (    1 N-000120 )
+  (    2 /D8 )
+  (    3 /D9 )
+  (    4 /D10 )
+  (    5 /D11 )
+  (    6 /D12 )
+  (    7 /D13 )
+  (    8 /D14 )
+  (    9 /D15 )
+  (   10 GND )
+  (   11 bus_enable )
+  (   12 N-000129 )
+  (   13 N-000118 )
+  (   14 N-000133 )
+  (   15 N-000127 )
+  (   16 N-000107 )
+  (   17 N-000125 )
+  (   18 N-000132 )
+  (   19 N-000126 )
+  (   20 VCC )
+ )
+ ( /5194B6C9 $noname  U6 74LS574 {Lib=74LS574}
+  (    1 N-000120 )
+  (    2 /D0 )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /D3 )
+  (    6 /D4 )
+  (    7 /D5 )
+  (    8 /D6 )
+  (    9 /D7 )
+  (   10 GND )
+  (   11 bus_enable )
+  (   12 N-000131 )
+  (   13 N-000128 )
+  (   14 N-000091 )
+  (   15 N-000111 )
+  (   16 N-000092 )
+  (   17 N-000112 )
+  (   18 N-000093 )
+  (   19 N-000090 )
+  (   20 VCC )
+ )
+ ( /5194B3E1 $noname  U3 74LS574 {Lib=74LS574}
+  (    1 bus_enable )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 N-000086 )
+  (    7 N-000084 )
+  (    8 N-000087 )
+  (    9 N-000078 )
+  (   10 GND )
+  (   11 N-000066 )
+  (   12 /A16 )
+  (   13 /A17 )
+  (   14 /A18 )
+  (   15 /A19 )
+  (   16 /A20 )
+  (   17 /A21 )
+  (   18 /A22 )
+  (   19 /A23 )
+  (   20 VCC )
+ )
+ ( /5194B370 $noname  U2 74LS574 {Lib=74LS574}
+  (    1 bus_enable )
+  (    2 N-000129 )
+  (    3 N-000118 )
+  (    4 N-000133 )
+  (    5 N-000127 )
+  (    6 N-000107 )
+  (    7 N-000125 )
+  (    8 N-000132 )
+  (    9 N-000126 )
+  (   10 GND )
+  (   11 N-000066 )
+  (   12 /A8 )
+  (   13 /A9 )
+  (   14 /A10 )
+  (   15 /A11 )
+  (   16 /A12 )
+  (   17 /A13 )
+  (   18 /A14 )
+  (   19 /A15 )
+  (   20 VCC )
+ )
+ ( /5194B347 $noname  U1 74LS574 {Lib=74LS574}
+  (    1 bus_enable )
+  (    2 N-000131 )
+  (    3 N-000128 )
+  (    4 N-000091 )
+  (    5 N-000111 )
+  (    6 N-000092 )
+  (    7 N-000112 )
+  (    8 N-000093 )
+  (    9 N-000090 )
+  (   10 GND )
+  (   11 N-000066 )
+  (   12 /A0 )
+  (   13 /A1 )
+  (   14 /A2 )
+  (   15 /A3 )
+  (   16 /A4 )
+  (   17 /A5 )
+  (   18 /A6 )
+  (   19 /A7 )
+  (   20 VCC )
+ )
+ ( /5194B060 $noname  U5 I80186 {Lib=I80186}
+  (    1 N-000129 )
+  (    2 N-000131 )
+  (    3 N-000118 )
+  (    4 N-000128 )
+  (    5 N-000133 )
+  (    6 N-000091 )
+  (    7 N-000127 )
+  (    8 N-000111 )
+  (    9 VCC )
+  (   10 N-000107 )
+  (   11 N-000092 )
+  (   12 N-000125 )
+  (   13 N-000112 )
+  (   14 N-000132 )
+  (   15 N-000093 )
+  (   16 N-000126 )
+  (   17 N-000090 )
+  (   18 ? )
+  (   19 ? )
+  (   20 GND )
+  (   21 GND )
+  (   22 ? )
+  (   23 ? )
+  (   24 GND )
+  (   25 ? )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 N-000108 )
+  (   41 GND )
+  (   42 GND )
+  (   43 VCC )
+  (   44 GND )
+  (   45 N-000124 )
+  (   46 NMI )
+  (   47 VCC )
+  (   48 ? )
+  (   49 GND )
+  (   50 GND )
+  (   51 GND )
+  (   52 ? )
+  (   53 ? )
+  (   54 ? )
+  (   55 bus_enable )
+  (   56 ? )
+  (   57 N-000042 )
+  (   58 ? )
+  (   59 /CPU_CLK )
+  (   60 GND )
+  (   61 N-000066 )
+  (   62 N-000120 )
+  (   63 N-000089 )
+  (   65 N-000086 )
+  (   66 N-000084 )
+  (   67 N-000087 )
+  (   68 N-000078 )
+  (    ~ N-000088 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 5 "VCC" "VCC"
+ C16 1
+ C3 1
+ C5 1
+ C12 1
+ C8 1
+ U1 20
+ C10 1
+ U8 20
+ C6 1
+ U5 43
+ C1 1
+ U3 20
+ P6 1
+ C14 1
+ U6 20
+ U5 47
+ U5 9
+ C4 1
+ P6 3
+ R3 1
+ U4 20
+ U2 20
+ U9 1
+ U7 20
+ C2 1
+ U9 20
+Net 6 "GND" "GND"
+ U7 10
+ U4 10
+ C14 2
+ P6 2
+ P6 4
+ C5 2
+ C3 2
+ C1 2
+ U5 26
+ U3 4
+ U3 3
+ U3 2
+ U2 10
+ U5 51
+ U5 41
+ U3 10
+ U5 44
+ U5 24
+ U6 10
+ U5 49
+ U5 21
+ U5 60
+ U5 50
+ U5 20
+ U1 10
+ U5 42
+ U3 5
+ C12 2
+ C16 2
+ C6 2
+ C10 2
+ D1 2
+ R4 1
+ C2 2
+ C4 2
+ C8 2
+ R1 1
+ R2 1
+ U8 10
+ U9 10
+Net 7 "/INT2" "INT2"
+ P10 3
+ P9 2
+Net 8 "/INT3" "INT3"
+ P10 4
+ P9 1
+Net 9 "/CPU1" "CPU1"
+ P13 2
+ P12 4
+Net 10 "/CPU0" "CPU0"
+ P13 1
+ P12 2
+Net 11 "" ""
+ D1 1
+ R3 2
+Net 12 "" ""
+ D2 2
+ R4 2
+Net 13 "bus enable" "bus enable"
+ U8 19
+ U6 11
+ P12 3
+ U2 1
+ U4 11
+ U3 1
+ U7 19
+ U5 55
+ P12 1
+ P12 7
+ P12 5
+ U9 19
+ D2 1
+ U1 1
+Net 18 "/INT5" "INT5"
+ P11 3
+ P19 2
+Net 39 "" ""
+ P20 2
+ U9 14
+Net 41 "/CPU2" "CPU2"
+ P12 6
+ P13 3
+Net 42 "" ""
+ U5 57
+ P20 1
+Net 56 "/BUS_HALFWORD" "BUS_HALFWORD"
+ P8 2
+ U9 12
+Net 57 "" ""
+ P20 3
+ U9 13
+Net 58 "/A13" "A13"
+ P4 3
+ U2 17
+Net 59 "/A15" "A15"
+ P4 1
+ U2 19
+Net 60 "/A14" "A14"
+ P4 2
+ U2 18
+Net 61 "/A12" "A12"
+ U2 16
+ P4 4
+Net 62 "/A11" "A11"
+ U2 15
+ P3 1
+Net 63 "/A10" "A10"
+ U2 14
+ P3 2
+Net 64 "/A9" "A9"
+ P3 3
+ U2 13
+Net 65 "/A8" "A8"
+ U2 12
+ P3 4
+Net 66 "" ""
+ U5 61
+ U2 11
+ U1 11
+ U3 11
+Net 67 "/A0" "A0"
+ P1 4
+ U1 12
+Net 68 "/A7" "A7"
+ U1 19
+ P2 1
+Net 69 "/A6" "A6"
+ U1 18
+ P2 2
+Net 70 "/A5" "A5"
+ U1 17
+ P2 3
+Net 71 "/A4" "A4"
+ P2 4
+ U1 16
+Net 72 "/A3" "A3"
+ U1 15
+ P1 1
+Net 73 "/A2" "A2"
+ U1 14
+ P1 2
+Net 74 "/A1" "A1"
+ U1 13
+ P1 3
+Net 75 "/A18" "A18"
+ U3 14
+ P5 2
+Net 76 "/A17" "A17"
+ U3 13
+ P5 3
+Net 77 "/A16" "A16"
+ U3 12
+ P5 4
+Net 78 "" ""
+ U3 9
+ U5 68
+Net 79 "/A19" "A19"
+ P5 1
+ U3 15
+Net 80 "/A20" "A20"
+ U3 16
+ P14 4
+Net 81 "/A21" "A21"
+ U3 17
+ P14 3
+Net 82 "/A22" "A22"
+ U3 18
+ P14 2
+Net 83 "/A23" "A23"
+ U3 19
+ P14 1
+Net 84 "" ""
+ U5 66
+ U3 7
+Net 85 "NMI" "NMI"
+ R1 2
+ K1 1
+ U5 46
+Net 86 "" ""
+ U5 65
+ U3 6
+Net 87 "" ""
+ U3 8
+ U5 67
+Net 88 "" ""
+ U5 ~
+ U9 8
+Net 89 "" ""
+ U9 6
+ U5 63
+Net 90 "" ""
+ U1 9
+ U6 19
+ U5 17
+ U7 2
+Net 91 "" ""
+ U7 7
+ U5 6
+ U6 14
+ U1 4
+Net 92 "" ""
+ U6 16
+ U5 11
+ U7 5
+ U1 6
+Net 93 "" ""
+ U1 8
+ U5 15
+ U7 3
+ U6 18
+Net 94 "" ""
+ K1 2
+ P7 1
+ P7 4
+ P7 2
+ P7 3
+Net 95 "/INT7" "INT7"
+ P11 1
+ P19 4
+Net 96 "/CPU3" "CPU3"
+ P12 8
+ P13 4
+Net 97 "/INT6" "INT6"
+ P11 2
+ P19 3
+Net 98 "/INT4" "INT4"
+ P11 4
+ P19 1
+Net 99 "/INT0" "INT0"
+ P9 4
+ P10 1
+Net 100 "/INT1" "INT1"
+ P10 2
+ P9 3
+Net 101 "/D0" "D0"
+ P15 1
+ U7 18
+ U6 2
+Net 102 "/D1" "D1"
+ U6 3
+ P15 2
+ U7 17
+Net 103 "/D15" "D15"
+ U4 9
+ U8 11
+ P18 4
+Net 104 "/D2" "D2"
+ U7 16
+ P15 3
+ U6 4
+Net 105 "/D4" "D4"
+ U6 6
+ U7 14
+ P16 1
+Net 106 "/D7" "D7"
+ P16 4
+ U6 9
+ U7 11
+Net 107 "" ""
+ U5 10
+ U2 6
+ U8 5
+ U4 16
+Net 108 "" ""
+ U8 1
+ U5 40
+ U9 9
+ U7 1
+Net 109 "/D9" "D9"
+ U8 17
+ P17 2
+ U4 3
+Net 110 "/D10" "D10"
+ P17 3
+ U4 4
+ U8 16
+Net 111 "" ""
+ U7 6
+ U1 5
+ U5 8
+ U6 15
+Net 112 "" ""
+ U6 17
+ U1 7
+ U7 4
+ U5 13
+Net 113 "/D13" "D13"
+ U4 7
+ P18 2
+ U8 13
+Net 114 "/D11" "D11"
+ U4 5
+ P17 4
+ U8 15
+Net 115 "/D3" "D3"
+ U7 15
+ U6 5
+ P15 4
+Net 116 "/D5" "D5"
+ U7 13
+ P16 2
+ U6 7
+Net 117 "/D6" "D6"
+ P16 3
+ U7 12
+ U6 8
+Net 118 "" ""
+ U5 3
+ U2 3
+ U8 8
+ U4 13
+Net 119 "/W/~R" "W/~R"
+ P8 1
+ U9 11
+Net 120 "" ""
+ U6 1
+ U9 7
+ U4 1
+ U5 62
+Net 121 "/CPU_CLK" "CPU_CLK"
+ P8 3
+ U5 59
+Net 122 "/D14" "D14"
+ U4 8
+ U8 12
+ P18 3
+Net 123 "/D12" "D12"
+ U8 14
+ P18 1
+ U4 6
+Net 124 "" ""
+ R2 2
+ K1 3
+ U5 45
+Net 125 "" ""
+ U2 7
+ U5 12
+ U4 17
+ U8 4
+Net 126 "" ""
+ U2 9
+ U8 2
+ U5 16
+ U4 19
+Net 127 "" ""
+ U4 15
+ U5 7
+ U2 5
+ U8 6
+Net 128 "" ""
+ U5 4
+ U1 3
+ U7 8
+ U6 13
+Net 129 "" ""
+ U5 1
+ U2 2
+ U8 9
+ U4 12
+Net 130 "/D8" "D8"
+ P17 1
+ U8 18
+ U4 2
+Net 131 "" ""
+ U7 9
+ U1 2
+ U6 12
+ U5 2
+Net 132 "" ""
+ U4 18
+ U8 3
+ U2 8
+ U5 14
+Net 133 "" ""
+ U2 4
+ U8 7
+ U4 14
+ U5 5
+}
+#End
