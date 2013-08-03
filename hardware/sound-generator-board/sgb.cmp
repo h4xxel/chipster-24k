@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 03 Aug 2013 01:35:47 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 03 Aug 2013 02:06:18 PM CEST
 
 BeginCmp
 TimeStamp = /517CED75;
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /51FCD777;
 Reference = Q2;
 ValeurCmp = BC182;
-IdModule  = TO92;
+IdModule  = TO92-123;
 EndCmp
 
 BeginCmp

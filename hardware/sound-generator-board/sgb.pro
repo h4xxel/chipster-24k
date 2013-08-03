@@ -1,6 +1,6 @@
-update=Sat 03 Aug 2013 01:24:56 PM CEST
+update=Sat 03 Aug 2013 02:18:01 PM CEST
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -38,8 +38,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -103,3 +101,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ay-3-8912
+[general]
+version=1
