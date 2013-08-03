@@ -1,6 +1,6 @@
-update=Wed 31 Jul 2013 06:09:11 PM CEST
+update=Sat 03 Aug 2013 01:24:56 PM CEST
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -33,6 +33,13 @@ LibName11=valves
 LibName12=pin_array_10x2
 LibName13=Capacitors_SMD_RevA
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -96,10 +103,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ay-3-8912
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1

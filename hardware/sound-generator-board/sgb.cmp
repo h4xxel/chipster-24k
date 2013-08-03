@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 02 Aug 2013 09:15:43 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 03 Aug 2013 12:59:42 PM CEST
 
 BeginCmp
 TimeStamp = /517CED75;
@@ -22,10 +22,45 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FCD857;
+Reference = C4;
+ValeurCmp = 100µF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD880;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD82C;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD83E;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
 TimeStamp = /519687A8;
 Reference = D9;
 ValeurCmp = LED;
 IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCE24C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -40,13 +75,6 @@ TimeStamp = /51F7D32A;
 Reference = P2;
 ValeurCmp = CONN_5;
 IdModule  = PIN_ARRAY_5x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /51966FD1;
-Reference = P3;
-ValeurCmp = CONN_2X2;
-IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -85,10 +113,59 @@ IdModule  = PIN_ARRAY_5x1;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FCCF1D;
+Reference = P9;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCCF24;
+Reference = P10;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCCF2A;
+Reference = P11;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCCF32;
+Reference = P12;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCCF37;
+Reference = P13;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCCF3A;
+Reference = P14;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
 TimeStamp = /51966E14;
 Reference = Q1;
 ValeurCmp = NPN;
 IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD777;
+Reference = Q2;
+ValeurCmp = BC182;
+IdModule  = TO92;
 EndCmp
 
 BeginCmp
@@ -197,10 +274,38 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FCD7BA;
+Reference = R16;
+ValeurCmp = 10kΩ;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD7EC;
+Reference = R17;
+ValeurCmp = 680Ω;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD7D6;
+Reference = R18;
+ValeurCmp = 8.2kΩ;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FCD811;
+Reference = R19;
+ValeurCmp = 10kΩ;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
 TimeStamp = /51968BB8;
 Reference = RV1;
 ValeurCmp = POT;
-IdModule  = RV2;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
