@@ -1,23 +1,23 @@
-# EESchema Netlist Version 1.1 created  Sat 03 Aug 2013 07:07:18 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 03 Aug 2013 07:20:16 PM CEST
 (
  ( /51FCF95D $noname  U3 74HC04 {Lib=74HC04}
-  (    1 N-000040 )
+  (    1 N-000039 )
   (    2 /ENABLE_0 )
-  (    3 N-000038 )
+  (    3 N-000073 )
   (    4 /ENABLE_1 )
-  (    5 N-000075 )
+  (    5 N-000072 )
   (    6 /ENABLE_2 )
   (    7 GND )
   (    8 /ENABLE_3 )
-  (    9 N-000074 )
-  (   10 N-000085 )
-  (   11 N-000051 )
+  (    9 N-000071 )
+  (   10 N-000082 )
+  (   11 N-000048 )
   (   14 VCC )
  )
  ( /51FCF80C $noname  K2 CONN_3 {Lib=CONN_3}
-  (    1 N-000085 )
+  (    1 N-000082 )
   (    2 N-000083 )
-  (    3 N-000051 )
+  (    3 N-000048 )
  )
  ( /51FCEAD4 $noname  C8 C {Lib=C}
   (    1 VCC )
@@ -37,20 +37,20 @@
   (    3 /LINE_L )
  )
  ( /51FCD880 $noname  C5 C {Lib=C}
-  (    1 N-000012 )
+  (    1 N-000011 )
   (    2 /MIX_OUT )
  )
  ( /51FCD857 $noname  C4 100µF {Lib=CP1}
-  (    1 N-000082 )
+  (    1 N-000081 )
   (    2 GND )
  )
  ( /51FCD83E $noname  D2 DIODE {Lib=DIODE}
-  (    1 N-000010 )
+  (    1 N-000009 )
   (    2 GND )
  )
  ( /51FCD82C $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000082 )
-  (    2 N-000010 )
+  (    1 N-000081 )
+  (    2 N-000009 )
  )
  ( /51FCD811 $noname  R19 10kΩ {Lib=R}
   (    1 /MIX_OUT )
@@ -62,22 +62,22 @@
  )
  ( /51FCD7D6 $noname  R18 8.2kΩ {Lib=R}
   (    1 VCC )
-  (    2 N-000012 )
+  (    2 N-000011 )
  )
  ( /51FCD7BA $noname  R16 10kΩ {Lib=R}
   (    1 VCC )
-  (    2 N-000082 )
+  (    2 N-000081 )
  )
  ( /51FCD777 TO92  Q2 BC182 {Lib=BC547}
-  (    1 N-000012 )
-  (    2 N-000082 )
+  (    1 N-000011 )
+  (    2 N-000081 )
   (    3 /MIX_LINE_IN )
  )
  ( /517CF47D $noname  U1 AY-3-8912 {Lib=AY-3-8912}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    3 VCC )
-  (    4 N-000043 )
-  (    5 N-000044 )
+  (    4 N-000042 )
+  (    5 N-000043 )
   (    6 GND )
   (    7 /IO7 )
   (    8 /IO6 )
@@ -139,27 +139,27 @@
   (    4 /IO37 )
  )
  ( /51FC051E $noname  R12 R {Lib=R}
-  (    1 N-000076 )
+  (    1 N-000074 )
   (    2 /MIX_IN )
  )
  ( /51FC0519 $noname  R11 R {Lib=R}
-  (    1 N-000078 )
+  (    1 N-000076 )
   (    2 /MIX_IN )
  )
  ( /51FC0515 $noname  R10 R {Lib=R}
-  (    1 N-000079 )
+  (    1 N-000077 )
   (    2 /MIX_IN )
  )
  ( /51FC04EF $noname  R15 R {Lib=R}
-  (    1 N-000072 )
+  (    1 N-000069 )
   (    2 /MIX_IN )
  )
  ( /51FC04EA $noname  R14 R {Lib=R}
-  (    1 N-000073 )
+  (    1 N-000070 )
   (    2 /MIX_IN )
  )
  ( /51FC04E5 $noname  R13 R {Lib=R}
-  (    1 N-000046 )
+  (    1 N-000044 )
   (    2 /MIX_IN )
  )
  ( /51FC048F $noname  R9 R {Lib=R}
@@ -167,7 +167,7 @@
   (    2 /MIX_IN )
  )
  ( /51FC0488 $noname  R8 R {Lib=R}
-  (    1 N-000030 )
+  (    1 N-000029 )
   (    2 /MIX_IN )
  )
  ( /51FC047D $noname  R6 R {Lib=R}
@@ -181,21 +181,21 @@
  )
  ( /51F7D3A8 $noname  P7 CONN_5 {Lib=CONN_5}
   (    1 /BDIR )
-  (    2 ? )
-  (    3 /CLOCK )
+  (    2 /CLOCK )
+  (    3 GND )
   (    4 /LINE_L )
   (    5 VCC )
  )
  ( /51F7D39C $noname  P8 CONN_5 {Lib=CONN_5}
-  (    1 N-000086 )
-  (    2 N-000081 )
-  (    3 N-000051 )
+  (    1 N-000085 )
+  (    2 N-000079 )
+  (    3 N-000048 )
   (    4 /BC2 )
   (    5 /BC1 )
  )
  ( /51F7D32A $noname  P2 CONN_5 {Lib=CONN_5}
-  (    1 /LINE_R )
-  (    2 GND )
+  (    1 GND )
+  (    2 /LINE_R )
   (    3 /DA0 )
   (    4 /DA1 )
   (    5 /DA2 )
@@ -208,10 +208,10 @@
   (    5 /DA7 )
  )
  ( /51F68D2B $noname  U5 AY-3-8912 {Lib=AY-3-8912}
-  (    1 N-000076 )
+  (    1 N-000074 )
   (    3 VCC )
-  (    4 N-000078 )
-  (    5 N-000079 )
+  (    4 N-000076 )
+  (    5 N-000077 )
   (    6 GND )
   (    7 /IO27 )
   (    8 /IO26 )
@@ -237,10 +237,10 @@
   (   28 /DA0 )
  )
  ( /51F68D27 $noname  U6 AY-3-8912 {Lib=AY-3-8912}
-  (    1 N-000072 )
+  (    1 N-000069 )
   (    3 VCC )
-  (    4 N-000073 )
-  (    5 N-000046 )
+  (    4 N-000070 )
+  (    5 N-000044 )
   (    6 GND )
   (    7 /IO37 )
   (    8 /IO36 )
@@ -268,7 +268,7 @@
  ( /51F68D21 $noname  U4 AY-3-8912 {Lib=AY-3-8912}
   (    1 N-000002 )
   (    3 VCC )
-  (    4 N-000030 )
+  (    4 N-000029 )
   (    5 N-000003 )
   (    6 GND )
   (    7 /IO17 )
@@ -303,12 +303,12 @@
   (    2 GND )
  )
  ( /519687C5 $noname  R7 R {Lib=R}
-  (    1 N-000045 )
+  (    1 N-000080 )
   (    2 GND )
  )
  ( /519687A8 $noname  D9 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000045 )
+  (    2 N-000080 )
  )
  ( /5196788B $noname  P6 CONN_4 {Lib=CONN_4}
   (    1 /IO4 )
@@ -324,12 +324,12 @@
  )
  ( /51966D96 $noname  U2 74LS139 {Lib=74LS139}
   (    1 N-000083 )
-  (    2 N-000081 )
-  (    3 N-000086 )
-  (    4 N-000040 )
-  (    5 N-000038 )
-  (    6 N-000075 )
-  (    7 N-000074 )
+  (    2 N-000079 )
+  (    3 N-000085 )
+  (    4 N-000039 )
+  (    5 N-000073 )
+  (    6 N-000072 )
+  (    7 N-000071 )
   (    8 GND )
   (    9 ? )
   (   10 ? )
@@ -345,15 +345,15 @@
   (    2 GND )
  )
  ( /517CEBB1 $noname  R3 R {Lib=R}
-  (    1 N-000042 )
+  (    1 N-000041 )
   (    2 /MIX_IN )
  )
  ( /517CEBAC $noname  R2 R {Lib=R}
-  (    1 N-000043 )
+  (    1 N-000042 )
   (    2 /MIX_IN )
  )
  ( /517CEBA6 $noname  R1 R {Lib=R}
-  (    1 N-000044 )
+  (    1 N-000043 )
   (    2 /MIX_IN )
  )
 )
@@ -541,134 +541,135 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "/MIX_IN" "MIX_IN"
- R2 2
  R3 2
  RV1 2
+ R2 2
  R1 2
- R14 2
- R11 2
- R6 2
- R9 2
  R13 2
- R8 2
+ R14 2
  R12 2
+ R9 2
+ R11 2
  R10 2
+ R6 2
  R15 2
+ R8 2
 Net 2 "" ""
  R9 1
  U4 1
 Net 3 "" ""
- U4 5
  R6 1
+ U4 5
 Net 5 "GND" "GND"
+ U5 6
  R17 1
  R19 2
- C3 2
  D2 2
- U1 6
- P2 2
- U5 6
- U3 7
- U4 6
- R7 2
- C2 2
- C1 2
+ C3 2
+ U6 6
  C8 2
- U2 8
  C7 2
  C6 2
+ C2 2
+ U4 6
+ U1 6
+ U2 8
+ P2 1
+ U3 7
+ C1 2
  C4 2
- U6 6
+ P7 3
+ R7 2
 Net 6 "/IO37" "IO37"
  U6 7
  P9 4
 Net 7 "/IO36" "IO36"
- P9 3
  U6 8
+ P9 3
 Net 8 "/IO35" "IO35"
  P9 2
  U6 9
-Net 9 "/IO34" "IO34"
- U6 10
- P9 1
-Net 10 "" ""
- D2 1
+Net 9 "" ""
  D1 2
-Net 11 "/MIX_OUT" "MIX_OUT"
- C5 2
+ D2 1
+Net 10 "/MIX_OUT" "MIX_OUT"
  K1 2
  R19 1
-Net 12 "" ""
- R18 2
+ C5 2
+Net 11 "" ""
  Q2 1
  C5 1
-Net 13 "/MIX_LINE_IN" "MIX_LINE_IN"
+ R18 2
+Net 12 "/MIX_LINE_IN" "MIX_LINE_IN"
+ RV1 1
  Q2 3
  R17 2
- RV1 1
-Net 14 "/IO7" "IO7"
- P6 4
+Net 13 "/IO7" "IO7"
  U1 7
-Net 15 "/IO6" "IO6"
+ P6 4
+Net 14 "/IO6" "IO6"
  U1 8
  P6 3
-Net 16 "/IO5" "IO5"
+Net 15 "/IO5" "IO5"
  P6 2
  U1 9
-Net 17 "/IO4" "IO4"
- P6 1
+Net 16 "/IO4" "IO4"
  U1 10
-Net 18 "/IO3" "IO3"
- P5 4
+ P6 1
+Net 17 "/IO3" "IO3"
  U1 11
-Net 19 "/IO2" "IO2"
+ P5 4
+Net 18 "/IO2" "IO2"
  P5 3
  U1 12
-Net 20 "/IO1" "IO1"
- U1 13
+Net 19 "/IO1" "IO1"
  P5 2
-Net 21 "/IO0" "IO0"
+ U1 13
+Net 20 "/IO0" "IO0"
  U1 14
  P5 1
-Net 22 "/IO10" "IO10"
- U4 14
+Net 21 "/IO10" "IO10"
  P14 1
-Net 23 "/IO17" "IO17"
- U4 7
+ U4 14
+Net 22 "/IO17" "IO17"
  P13 4
-Net 24 "/IO16" "IO16"
- U4 8
+ U4 7
+Net 23 "/IO16" "IO16"
  P13 3
-Net 25 "/IO15" "IO15"
- U4 9
+ U4 8
+Net 24 "/IO15" "IO15"
  P13 2
-Net 26 "/IO14" "IO14"
- U4 10
+ U4 9
+Net 25 "/IO14" "IO14"
  P13 1
-Net 27 "/IO13" "IO13"
+ U4 10
+Net 26 "/IO13" "IO13"
  U4 11
  P14 4
-Net 28 "/IO12" "IO12"
- U4 12
+Net 27 "/IO12" "IO12"
  P14 3
-Net 29 "/IO11" "IO11"
- U4 13
+ U4 12
+Net 28 "/IO11" "IO11"
  P14 2
-Net 30 "" ""
- R8 1
+ U4 13
+Net 29 "" ""
  U4 4
-Net 31 "/CLOCK" "CLOCK"
- P7 3
- U6 15
+ R8 1
+Net 30 "/CLOCK" "CLOCK"
+ U1 15
+ P7 2
  U5 15
  U4 15
- U1 15
-Net 32 "/ENABLE_1" "ENABLE_1"
+ U6 15
+Net 31 "/ENABLE_1" "ENABLE_1"
  U3 4
  U4 17
-Net 33 "/IO30" "IO30"
+Net 32 "/IO30" "IO30"
  P10 1
  U6 14
+Net 33 "/IO34" "IO34"
+ U6 10
+ P9 1
 Net 34 "/IO33" "IO33"
  U6 11
  P10 4
@@ -679,196 +680,196 @@ Net 36 "/IO31" "IO31"
  U6 13
  P10 2
 Net 37 "/ENABLE_3" "ENABLE_3"
- U6 17
  U3 8
-Net 38 "" ""
- U3 3
- U2 5
-Net 40 "" ""
+ U6 17
+Net 39 "" ""
  U2 4
  U3 1
-Net 42 "" ""
- R3 1
+Net 41 "" ""
  U1 1
-Net 43 "" ""
+ R3 1
+Net 42 "" ""
  U1 4
  R2 1
-Net 44 "" ""
- U1 5
+Net 43 "" ""
  R1 1
-Net 45 "" ""
- D9 2
- R7 1
-Net 46 "" ""
+ U1 5
+Net 44 "" ""
  R13 1
  U6 5
-Net 49 "/ENABLE_0" "ENABLE_0"
+Net 47 "/ENABLE_0" "ENABLE_0"
  U1 17
  U3 2
-Net 51 "" ""
- U3 11
+Net 48 "" ""
  P8 3
+ U3 11
  K2 3
-Net 52 "/DA4" "DA4"
- U1 24
- U5 24
- U6 24
+Net 49 "/DA4" "DA4"
  P1 2
  U4 24
-Net 53 "/IO27" "IO27"
+ U6 24
+ U1 24
+ U5 24
+Net 50 "/IO27" "IO27"
  P11 4
  U5 7
-Net 54 "/IO26" "IO26"
- U5 8
+Net 51 "/IO26" "IO26"
  P11 3
-Net 55 "/IO25" "IO25"
+ U5 8
+Net 52 "/IO25" "IO25"
  P11 2
  U5 9
-Net 56 "/IO24" "IO24"
- P11 1
+Net 53 "/IO24" "IO24"
  U5 10
-Net 57 "/BC1" "BC1"
- U6 20
- U4 20
+ P11 1
+Net 54 "/BC1" "BC1"
  U1 20
- P8 5
  U5 20
-Net 58 "/IO23" "IO23"
+ P8 5
+ U4 20
+ U6 20
+Net 55 "/IO23" "IO23"
  P12 4
  U5 11
-Net 59 "/DA7" "DA7"
- U1 21
+Net 56 "/DA7" "DA7"
  U5 21
- U4 21
  P1 5
  U6 21
-Net 60 "/IO22" "IO22"
+ U4 21
+ U1 21
+Net 57 "/IO22" "IO22"
  P12 3
  U5 12
-Net 61 "/DA6" "DA6"
- U4 22
- U1 22
+Net 58 "/DA6" "DA6"
  U6 22
+ U1 22
+ U4 22
  P1 4
  U5 22
-Net 62 "/IO21" "IO21"
+Net 59 "/IO21" "IO21"
  U5 13
  P12 2
-Net 63 "/DA5" "DA5"
- U5 23
- U1 23
- U4 23
- U6 23
+Net 60 "/DA5" "DA5"
  P1 3
-Net 64 "/IO20" "IO20"
- U5 14
+ U6 23
+ U4 23
+ U1 23
+ U5 23
+Net 61 "/IO20" "IO20"
  P12 1
-Net 65 "/DA3" "DA3"
- P1 1
- U5 25
- U1 25
+ U5 14
+Net 62 "/DA3" "DA3"
  U6 25
+ U1 25
+ P1 1
  U4 25
-Net 66 "/DA2" "DA2"
+ U5 25
+Net 63 "/DA2" "DA2"
  U5 26
- U1 26
  P2 5
+ U1 26
  U4 26
  U6 26
-Net 67 "/ENABLE_2" "ENABLE_2"
+Net 64 "/ENABLE_2" "ENABLE_2"
  U5 17
  U3 6
-Net 68 "/DA1" "DA1"
- U4 27
- P2 4
+Net 65 "/DA1" "DA1"
+ U1 27
  U5 27
  U6 27
- U1 27
-Net 69 "/BDIR" "BDIR"
+ P2 4
+ U4 27
+Net 66 "/BDIR" "BDIR"
+ P7 1
+ U4 18
+ U5 18
  U1 18
  U6 18
- U5 18
- U4 18
- P7 1
-Net 70 "/DA0" "DA0"
- U6 28
+Net 67 "/DA0" "DA0"
  P2 3
- U1 28
- U5 28
+ U6 28
  U4 28
-Net 71 "/BC2" "BC2"
- U6 19
- U4 19
+ U5 28
+ U1 28
+Net 68 "/BC2" "BC2"
  U5 19
- P8 4
  U1 19
-Net 72 "" ""
- R15 1
+ U6 19
+ P8 4
+ U4 19
+Net 69 "" ""
  U6 1
-Net 73 "" ""
+ R15 1
+Net 70 "" ""
  R14 1
  U6 4
-Net 74 "" ""
+Net 71 "" ""
  U2 7
  U3 9
-Net 75 "" ""
+Net 72 "" ""
  U3 5
  U2 6
-Net 76 "" ""
+Net 73 "" ""
+ U3 3
+ U2 5
+Net 74 "" ""
  R12 1
  U5 1
-Net 77 "VCC" "VCC"
- U1 3
+Net 75 "VCC" "VCC"
  U4 16
+ U1 3
  C3 1
  U1 16
  R18 1
  R16 1
- P7 5
  U3 14
- D9 1
- C1 1
- U2 16
- U5 3
- U6 3
- U5 16
- U2 15
- C6 1
- U2 14
- C7 1
  U2 13
  C8 1
- U4 3
+ U2 14
+ U2 15
+ U2 16
+ C1 1
+ D9 1
+ U5 16
+ U6 3
  U6 16
  C2 1
-Net 78 "" ""
- U5 4
+ P7 5
+ U5 3
+ U4 3
+ C7 1
+ C6 1
+Net 76 "" ""
  R11 1
-Net 79 "" ""
+ U5 4
+Net 77 "" ""
  R10 1
  U5 5
-Net 80 "/LINE_L" "LINE_L"
- K1 3
+Net 78 "/LINE_L" "LINE_L"
  P7 4
-Net 81 "" ""
- P8 2
+ K1 3
+Net 79 "" ""
  U2 2
-Net 82 "" ""
+ P8 2
+Net 80 "" ""
+ R7 1
+ D9 2
+Net 81 "" ""
  C4 1
  R16 2
- D1 1
  Q2 2
+ D1 1
+Net 82 "" ""
+ U3 10
+ K2 1
 Net 83 "" ""
  U2 1
  K2 2
 Net 84 "/LINE_R" "LINE_R"
- P2 1
  K1 1
+ P2 2
 Net 85 "" ""
- K2 1
- U3 10
-Net 86 "" ""
- U2 3
  P8 1
+ U2 3
 }
 #End

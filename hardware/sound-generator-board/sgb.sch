@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Aug 2013 07:12:06 PM CEST
+EESchema Schematic File Version 2  date Sun 11 Aug 2013 02:48:30 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,22 +46,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2350 3600 2350 3550
+	2350 3500 3400 3500
 Wire Wire Line
-	2350 3550 3400 3550
+	3400 3500 3400 5250
 Wire Wire Line
-	3400 3550 3400 5250
+	2850 4400 2900 4400
 Wire Wire Line
-	2850 4300 2900 4300
+	2900 4400 2900 3600
+Connection ~ 2450 3950
 Wire Wire Line
-	2900 4300 2900 3600
+	2350 3600 2450 3600
+Wire Wire Line
+	2450 3600 2450 3950
 Wire Wire Line
 	2900 3600 3500 3600
 Connection ~ 2750 3750
-Wire Wire Line
-	2350 3500 2750 3500
-Wire Wire Line
-	2750 3500 2750 3950
 Wire Wire Line
 	700  5900 700  6300
 Wire Wire Line
@@ -395,9 +394,7 @@ Wire Wire Line
 	3050 3900 2250 3900
 Connection ~ 3050 4200
 Wire Wire Line
-	3050 4200 3050 4150
-Wire Wire Line
-	3050 4150 3850 4150
+	3850 4150 3050 4150
 Wire Wire Line
 	3850 4150 3850 5050
 Wire Wire Line
@@ -785,6 +782,12 @@ Wire Wire Line
 	2950 4350 2950 4200
 Wire Wire Line
 	2950 4200 2850 4200
+Wire Wire Line
+	2850 4300 3050 4300
+Wire Wire Line
+	3050 4300 3050 4150
+Wire Wire Line
+	2750 3750 2750 3950
 $Comp
 L 74HC04 U3
 U 5 1 51FCF95D
