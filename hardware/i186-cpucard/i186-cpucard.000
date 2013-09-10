@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date ons  4 sep 2013 18:04:01
+PCBNEW-BOARD Version 1 date ons  4 sep 2013 18:05:34
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 232
 NoConn 0
 Di 15984 20660 59868 43938
-Ndraw 15
+Ndraw 17
 Ntrack 841
 Nzone 0
 BoardThickness 630
@@ -4302,6 +4302,16 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SO14N
+$TEXTPCB
+Te "+"
+Po 59300 36600 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "+"
+Po 29300 33800 600 800 120 0
+De 21 1 0 Normal C
+$EndTEXTPCB
 $TEXTPCB
 Te "©opyleft Steven Arnow, Axel Isaksson 2013"
 Po 49250 23250 600 800 120 0
