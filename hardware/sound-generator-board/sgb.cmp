@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 03 Aug 2013 02:37:59 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = tor 19 sep 2013 10:06:20
 
 BeginCmp
 TimeStamp = /517CED75;
@@ -29,10 +29,10 @@ IdModule  = C1V5;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCD880;
+TimeStamp = /523AA43F;
 Reference = C5;
-ValeurCmp = C;
-IdModule  = C2;
+ValeurCmp = 47µ;
+IdModule  = C1V5;
 EndCmp
 
 BeginCmp
@@ -57,17 +57,17 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCD82C;
-Reference = D1;
-ValeurCmp = DIODE;
-IdModule  = D3;
+TimeStamp = /523AA439;
+Reference = C9;
+ValeurCmp = 100µ;
+IdModule  = C1V5;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCD83E;
-Reference = D2;
-ValeurCmp = DIODE;
-IdModule  = D3;
+TimeStamp = /523AA447;
+Reference = C10;
+ValeurCmp = 10µ;
+IdModule  = C1V5;
 EndCmp
 
 BeginCmp
@@ -103,6 +103,13 @@ TimeStamp = /51F7D32A;
 Reference = P2;
 ValeurCmp = CONN_5;
 IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /523AAF73;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
@@ -176,10 +183,24 @@ IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
+TimeStamp = /523AA3F4;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
 TimeStamp = /51FCD777;
 Reference = Q2;
-ValeurCmp = BC182;
+ValeurCmp = BC547;
 IdModule  = TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /523AA3F2;
+Reference = Q3;
+ValeurCmp = BC547;
+IdModule  = TO92;
 EndCmp
 
 BeginCmp
@@ -201,6 +222,20 @@ TimeStamp = /517CEBB1;
 Reference = R3;
 ValeurCmp = R;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /523AA4AD;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /523AA49A;
+Reference = R5;
+ValeurCmp = 3k3;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
@@ -274,31 +309,17 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCD7BA;
+TimeStamp = /523AA89E;
 Reference = R16;
-ValeurCmp = 10kΩ;
-IdModule  = R3;
+ValeurCmp = 1k5;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCD7EC;
+TimeStamp = /523AA4B5;
 Reference = R17;
-ValeurCmp = 680Ω;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FCD7D6;
-Reference = R18;
-ValeurCmp = 8.2kΩ;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FCD811;
-Reference = R19;
-ValeurCmp = 10kΩ;
-IdModule  = R3;
+ValeurCmp = 330R;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
